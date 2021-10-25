@@ -6,8 +6,8 @@ import './AreaSignIn.css'
 const AreaSignIn = () => {
     return ( 
         <div className="area-login">
-            <Input></Input>
-            <Input></Input>
+            <Input>Email</Input>
+            <Input>Senha</Input>
             <Button>Sign in</Button>
         </div>
         

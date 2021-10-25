@@ -1,0 +1,35 @@
+.like-container{
+    display: flex;
+    flex-direction: row;
+    padding: 10px 20px;
+    justify-content: center;
+}
+
+.like{
+    border: 3px solid #28282b;
+    border-radius: 10px;
+}
+.like-container img{
+    border-radius: 50%;
+    margin-right: 10px;
+
+}
+
+.news{
+    margin-top: 5%;
+}
+.news-container{
+    display: flex;
+    flex-direction: row;
+    padding: 10px 20px;
+    justify-content: space-around;
+}
+
+.news-container img{
+    border-radius: 10px;
+}
+
+.news{
+    border: 3px solid #28282b;
+    border-radius: 10px;
+}

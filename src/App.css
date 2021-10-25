@@ -1,0 +1,28 @@
+html, body, #root, .App {
+    height: 100%;
+  }
+
+
+.landing-page{
+    display: flex;
+    flex-direction: row;
+    min-height: 100%;
+}
+
+.div-logo{
+    background-color: #2AA9E0;
+    width: 40%;
+}
+
+.div-login{
+    width: 60%;
+}
+
+@media only screen and (max-width: 480px) {
+ .div-logo{
+    display: none;
+ }
+ .div-login{
+    width: 100%;
+}
+}

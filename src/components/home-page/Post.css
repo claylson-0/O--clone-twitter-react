@@ -1,0 +1,49 @@
+.geral{
+    display: flex;
+    flex-direction: row;
+    border: 2px solid #28282b;
+
+padding: 10px 20px;
+}
+
+.foto-perfil{
+    margin-right: 10px;
+}
+
+.foto-perfil img{
+    border-radius: 50%;
+}
+
+.usuario{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 5px;
+}
+.usuario h2{
+    margin-right: 10px;
+}
+.usuario p{
+    color: #36363a;
+}
+.acao{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    color: #28282b;
+}
+
+.conteudo{
+    width: 80%;
+}
+
+.conteudo-post{
+    margin-bottom: 10px;
+}
+.conteudo-post p{
+    margin-bottom: 10px;
+}
+.conteudo-post img{
+border-radius: 15px;
+width: 100%;
+}

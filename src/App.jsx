@@ -1,7 +1,5 @@
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import { BrowserRouter as Router, Route } from 'react-router-dom'
-
-
 
 import './App.css'
 import AreaSignIn from './components/landing-page/AreaSignIn'
@@ -18,7 +16,6 @@ const App = () => {
         },
     ]);
 
-    
 
     const handleUserAddition = (nome, email, senha, confirmaSenha) => {
         if (senha == confirmaSenha) {
@@ -31,8 +28,6 @@ const App = () => {
             console.log(newUser)
         }
     }
-
-
 
 
     return (

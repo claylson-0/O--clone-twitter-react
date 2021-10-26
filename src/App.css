@@ -1,34 +1,36 @@
-html, body, #root, .App {
-    height: 100%;
-  }
-
-
-.landing-page{
-    display: flex;
-    flex-direction: row;
-    min-height: 100%;
+html,
+body,
+#root,
+.App {
+  height: 100%;
 }
 
-.div-logo{
-    background-color: #2AA9E0;
-    width: 40%;
+.landing-page {
+  display: flex;
+  flex-direction: row;
+  min-height: 100%;
 }
 
-.div-logo img{
-    background-color:#2AA9E0 ;
-    width: 70%;
-    padding: 30% 10%;
+.div-logo {
+  background-color: #2aa9e0;
+  width: 40%;
 }
 
-.div-login{
-    width: 60%;
+.div-logo img {
+  background-color: #2aa9e0;
+  width: 70%;
+  padding: 30% 10%;
+}
+
+.div-login {
+  width: 60%;
 }
 
 @media only screen and (max-width: 480px) {
- .div-logo{
+  .div-logo {
     display: none;
- }
- .div-login{
+  }
+  .div-login {
     width: 100%;
-}
+  }
 }

@@ -1,4 +1,4 @@
-.menu-lateral{
+.menu-left{
     display: flex;
     flex-direction: column;
     width: 20%;
@@ -7,7 +7,7 @@
     text-align: center;
     padding-top: 10%;
 }
-.menu-lateral div{
+.menu-left div{
     margin-bottom: 2%;
 }
 
@@ -19,20 +19,20 @@
 .post{
     width: 80%;
 }
-.outro{
+.menu-rigth{
     display: none;
 }
-.menu-lateral p{
+.menu-left p{
     display: none;
 }
-.menu-lateral div{
+.menu-left div{
     display: none;
 }
 
     
     @media only screen and (min-width: 601px) {
 
-        .menu-lateral div{
+        .menu-left div{
             display: flex;
             justify-content: center;
         }
@@ -42,15 +42,15 @@
         .post{
             width: 50%;
         }
-        .outro{
+        .menu-rigth{
             display: inline;
             width: 30%;
         }
-        .menu-lateral p{
+        .menu-left p{
             display: inline;
             
         }
-        .menu-lateral{
+        .menu-left{
             width: 20%;
         }
         

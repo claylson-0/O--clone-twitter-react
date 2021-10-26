@@ -1,8 +1,8 @@
 import React from 'react';
 import Button from '../common/Button';
 
-import './Outro.css'
-const Outro = () => {
+import './MenuRigth.css'
+const MenuRigth = () => {
     return (
         <>
             <div>
@@ -43,4 +43,4 @@ const Outro = () => {
     );
 }
 
-export default Outro;
+export default MenuRigth;

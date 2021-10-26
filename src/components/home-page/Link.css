@@ -1,4 +1,4 @@
-button{
+.button-menu{
     color: white;
     text-decoration: none;
     font-size: 28px;
@@ -9,6 +9,6 @@ button{
     cursor: pointer;
 }
 
-button:hover{
+.button-menu:hover{
     background-color: #28282b;
 }

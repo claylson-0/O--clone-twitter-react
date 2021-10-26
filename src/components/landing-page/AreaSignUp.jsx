@@ -27,7 +27,15 @@ const AreaSignUp = ({handleUserAddition}) => {
 
 
     const handleAddUserClick=()=>{
+        if(inputName!=""&&inputEmail!=""&&inputPassword!=""&&inputConfirmPassword){
         handleUserAddition(inputName,inputEmail,inputPassword,inputConfirmPassword)
+        setInputName("")
+        setInputPassword("")
+        setInputConfirmPassword("")
+        setInputEmail("")}
+        else{
+            alert("Preencha os campos")
+        }
     }
     return ( 
         <div className="area-user-create">

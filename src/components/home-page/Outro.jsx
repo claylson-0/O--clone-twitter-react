@@ -10,24 +10,32 @@ const Outro = () => {
                     <div className="like-container">
                         <img src="http://lorempixel.com/50/50/people" alt="" />
                         <div className="conteudo">
-                            <p>nickname</p>
-                            <p>@nickname</p>
+                            <p>Lorem ipsum</p>
+                            <p>@dolor sit</p>
                         </div>
                         <div>
                         <Button>seguir</Button>
                         </div>
                     </div>
-                </div>
-                <div className="news">
-                    <div className="news-container">
-                        <div className="news-conteudo">
-                            <p>Loren Ipsum</p>
-                            
-                        </div>
+                    <div className="like-container">
                         <img src="http://lorempixel.com/50/50/people" alt="" />
-
-
-
+                        <div className="conteudo">
+                            <p>consectetur</p>
+                            <p>@adipiscing</p>
+                        </div>
+                        <div>
+                        <Button>seguir</Button>
+                        </div>
+                    </div>
+                    <div className="like-container">
+                        <img src="http://lorempixel.com/50/50/people" alt="" />
+                        <div className="conteudo">
+                            <p>Duis luctus</p>
+                            <p>@tortor</p>
+                        </div>
+                        <div>
+                        <Button>seguir</Button>
+                        </div>
                     </div>
                 </div>
             </div>

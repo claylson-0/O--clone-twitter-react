@@ -1,26 +1,27 @@
 import React from 'react';
+import { FaRegComment,FaRetweet,FaRegHeart,FaShareSquare } from 'react-icons/fa';
 import './Post.css'
-const Post = () => {
+const Post = ({post}) => {
     return (
         <>
             <div className="geral">
                 <div className="foto-perfil">
-                    <img src="http://lorempixel.com/50/50/people" alt="" />
+                    <img src={post.image} alt="" />
                 </div>
                 <div className="conteudo">
                     <div className="usuario">
-                        <h2>NickName</h2>
-                        <p>@NickName</p>
+                        <h2>{post.name}</h2>
+                        <p>@{post.nickname}</p>
                     </div>
                     <div className="conteudo-post">
-                        <p>Lorem Ipsun</p>
-                        <img src="http://lorempixel.com/300/300/nature/" alt="" />
+                        <p>{post.text}</p>
+                        
                     </div>
                     <div className="acao">
-                        <p>[]</p>
-                        <p>()</p>
-                        <p>S2</p>
-                        <p>--</p>
+                        <p><FaRegComment/></p>
+                        <p><FaRetweet/></p>
+                        <p><FaRegHeart/></p>
+                        <p><FaShareSquare/></p>
                     </div>
                 </div>
             </div>

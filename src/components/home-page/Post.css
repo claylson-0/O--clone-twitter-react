@@ -8,10 +8,13 @@ padding: 10px 20px;
 
 .foto-perfil{
     margin-right: 10px;
+    width: 10%;
 }
 
 .foto-perfil img{
     border-radius: 50%;
+    width: 60px;
+    height: 60px;
 }
 
 .usuario{
@@ -31,6 +34,10 @@ padding: 10px 20px;
     flex-direction: row;
     justify-content: space-around;
     color: #28282b;
+}
+
+.acao p{
+    cursor: pointer;
 }
 
 .conteudo{
